@@ -1,0 +1,58 @@
+.offer-window {
+  margin-bottom: 25px;
+  padding: 25px;
+  padding-bottom: 83px;
+  width: 828px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.offer-window__title {
+  font-size: 26px;
+}
+
+.offer-window__inner {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 27px;
+  padding-bottom: 27px;
+}
+
+.offer-window__img {
+  margin-left: 55px;
+}
+
+
+.offer-window__advantages-list {
+  margin-left: 33px;
+  color: #eb5825;
+  font-size: 20px;
+}
+
+.offer-window__advantages-list li {
+  margin-bottom: 5px;
+}
+
+.offer-window__advantages-list span {
+  margin-left: -3px;
+  color: black;
+  font-size: 14px;
+}
+
+.offer-window__img-description {
+  padding-left: 41px;
+  padding-top: 40px;
+  font-size: 18px;
+  color: $color-grey;
+}
+
+.offer-window__send-request {
+  margin-left: 10px;
+  padding-top: 9px;
+}
+
+.offer-window__send-request a {
+  color: $color-grey;
+  text-decoration: none;
+  border-bottom: 1px solid $color-grey;
+}

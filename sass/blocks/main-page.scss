@@ -1,0 +1,35 @@
+.main-page {
+  margin: 0 auto;
+  width: 1145px;
+}
+
+.main-page__about {
+  display: flex;
+  margin: 0 auto;
+  width: 1145px;
+}
+
+.main-page__inner {
+  padding-top: 37px;
+  padding-bottom: 29px;
+  color: $color-dark-grey;
+}
+
+.main-page__title {
+  font-size: 64px;
+  letter-spacing: 1.3px;
+}
+
+.main-page__description {
+  font-size: 26px;
+  line-height: 36px;
+  letter-spacing: 0.6px;
+}
+
+.main-page__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 1145px;
+  margin: 0 auto;
+}

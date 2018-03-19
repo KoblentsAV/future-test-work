@@ -1,0 +1,89 @@
+.reviews {
+  display: flex;
+  justify-content: flex-end;
+  width: 1145px;
+  margin: 0 auto;
+}
+
+.reviews__inner {
+  width: 878px;
+}
+
+.reviews__title {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.reviews__title span {
+  font-size: 26px;
+}
+
+.reviews__title a {
+  padding-top: 9px;
+  font-size: 16px;
+  text-decoration: none;
+  line-height: 21px;
+  color: $color-bright-red;
+  border-bottom: 1px solid $color-bright-red;
+}
+
+.reviews__info {
+  padding: 35px 25px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.reviews__respondent-name {
+  margin-bottom: 2px;
+  font-size: 16px;
+}
+
+.reviews__contract-number {
+  color: $color-grey;
+}
+
+.reviews__publication-date {
+  position: relative;
+  margin-bottom: 37px;
+  color: $color-grey;
+}
+
+.reviews__publication-date::after {
+  content: "";
+  position: absolute;
+  left: 1px;
+  top: 27px;
+  width: 76px;
+  height: 13px;
+  background: url(/images/icons/icon-stars-rating.png) no-repeat;
+}
+
+.reviews__comment {
+  margin-bottom: 17px;
+  padding-right: 20px;
+}
+
+.reviews__read-full {
+  position: relative;
+  margin-left: 19px;
+  margin-bottom: 35px;
+}
+
+.reviews__read-full::before {
+  content: "";
+  position: absolute;
+  left: -18px;
+  top: 4px;
+  width: 13px;
+  height: 13px;
+  background: url(/images/icons/icon-arrow-down.png) no-repeat;
+}
+
+
+.reviews__read-full a {
+  font-size: 16px;
+  color: $color-bright-red;
+  text-decoration: none;
+  border-bottom: 1px dashed $color-bright-red;
+}
